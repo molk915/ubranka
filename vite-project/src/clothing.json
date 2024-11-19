@@ -1,0 +1,135 @@
+[
+    {
+      "name": "Classic T-Shirt",
+      "sizes": [
+        { "size": "S", "price": 19.99, "amount": 100 },
+        { "size": "M", "price": 19.99, "amount": 150 },
+        { "size": "L", "price": 19.99, "amount": 120 },
+        { "size": "XL", "price": 19.99, "amount": 80 }
+      ],
+      "color": "Blue",
+      "brand": "ComfortWear",
+      "category": "Topwear",
+      "material": "Cotton",
+      "sku": "CW-TSHIRT-BLUE"
+    },
+    {
+      "name": "Slim Fit Jeans",
+      "sizes": [
+        { "size": "30", "price": 49.99, "amount": 50 },
+        { "size": "32", "price": 49.99, "amount": 75 },
+        { "size": "34", "price": 49.99, "amount": 60 },
+        { "size": "36", "price": 49.99, "amount": 40 }
+      ],
+      "color": "Dark Denim",
+      "brand": "DenimCo",
+      "category": "Bottomwear",
+      "material": "Denim",
+      "sku": "DC-JEANS-DENIM"
+    },
+    {
+      "name": "Summer Dress",
+      "sizes": [
+        { "size": "XS", "price": 59.99, "amount": 40 },
+        { "size": "S", "price": 59.99, "amount": 60 },
+        { "size": "M", "price": 59.99, "amount": 50 },
+        { "size": "L", "price": 59.99, "amount": 30 }
+      ],
+      "color": "Floral",
+      "brand": "Fashionista",
+      "category": "Dresses",
+      "material": "Silk",
+      "sku": "FA-DRESS-FLORAL"
+    },
+    {
+      "name": "Running Sneakers",
+      "sizes": [
+        { "size": "8", "price": 89.99, "amount": 100 },
+        { "size": "9", "price": 89.99, "amount": 120 },
+        { "size": "10", "price": 89.99, "amount": 90 },
+        { "size": "11", "price": 89.99, "amount": 70 }
+      ],
+      "color": "White",
+      "brand": "AthletiQ",
+      "category": "Footwear",
+      "material": "Mesh",
+      "sku": "AQ-SNEAKERS-WHITE"
+    },
+    {
+      "name": "Leather Jacket",
+      "sizes": [
+        { "size": "M", "price": 199.99, "amount": 20 },
+        { "size": "L", "price": 199.99, "amount": 30 },
+        { "size": "XL", "price": 199.99, "amount": 15 }
+      ],
+      "color": "Black",
+      "brand": "UrbanEdge",
+      "category": "Outerwear",
+      "material": "Leather",
+      "sku": "UE-JACKET-BLACK"
+    },
+    {
+      "name": "Wool Scarf",
+      "sizes": [
+        { "size": "One Size", "price": 29.99, "amount": 200 }
+      ],
+      "color": "Red",
+      "brand": "CozyKnits",
+      "category": "Accessories",
+      "material": "Wool",
+      "sku": "CK-SCARF-RED"
+    },
+    {
+      "name": "Formal Shirt",
+      "sizes": [
+        { "neck_size": "15", "price": 39.99, "amount": 80 },
+        { "neck_size": "16", "price": 39.99, "amount": 85 },
+        { "neck_size": "17", "price": 39.99, "amount": 70 }
+      ],
+      "color": "White",
+      "brand": "ExecutiveLine",
+      "category": "Formalwear",
+      "material": "Cotton Blend",
+      "sku": "EL-SHIRT-WHITE"
+    },
+    {
+      "name": "Yoga Pants",
+      "sizes": [
+        { "size": "S", "price": 35.99, "amount": 120 },
+        { "size": "M", "price": 35.99, "amount": 140 },
+        { "size": "L", "price": 35.99, "amount": 110 },
+        { "size": "XL", "price": 35.99, "amount": 90 }
+      ],
+      "color": "Black",
+      "brand": "FlexFit",
+      "category": "Activewear",
+      "material": "Spandex",
+      "sku": "FF-PANTS-BLACK"
+    },
+    {
+      "name": "Beanie Hat",
+      "sizes": [
+        { "size": "One Size", "price": 15.99, "amount": 180 }
+      ],
+      "color": "Grey",
+      "brand": "WarmHeads",
+      "category": "Accessories",
+      "material": "Acrylic",
+      "sku": "WH-HAT-GREY"
+    },
+    {
+      "name": "Ankle Boots",
+      "sizes": [
+        { "size": "6", "price": 129.99, "amount": 60 },
+        { "size": "7", "price": 129.99, "amount": 50 },
+        { "size": "8", "price": 129.99, "amount": 40 },
+        { "size": "9", "price": 129.99, "amount": 30 }
+      ],
+      "color": "Brown",
+      "brand": "StepRight",
+      "category": "Footwear",
+      "material": "Suede",
+      "sku": "SR-BOOTS-BROWN"
+    }
+  ]
+  
