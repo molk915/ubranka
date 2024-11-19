@@ -6,9 +6,9 @@ import './App.css';
 
 const App = () => {
   return (
-    <div style={styles.app}>
+    <div >
       <Navbar />
-      <main style={styles.main}>
+      <main >
         <h2>Welcome to our Clothing Store</h2>
         <ProductListt />
       </main>
@@ -17,9 +17,6 @@ const App = () => {
   );
 };
 
-const styles = {
-  app: { fontFamily: 'Arial, sans-serif', display: 'flex', flexDirection: 'column', minHeight: '100vh' },
-  main: { flex: '1', padding: '20px' },
-};
+
 
 export default App;
