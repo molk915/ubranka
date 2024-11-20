@@ -5,13 +5,14 @@
   align-items: center;
   padding: 15px 30px;
   background: rgb(12,200,17);
-background: linear-gradient(90deg, rgba(12,200,17,1) 1%, rgba(37,99,5,1) 59%);
+  background: linear-gradient(90deg, rgba(12,200,17,1) 1%, rgba(37,99,5,1) 59%);
   color: #fff;
   width: 100%;
   position: fixed; 
   top: 0;
   left: 0; 
   opacity: 0.9;
+  z-index: 1000;
 }
 
 .logo {
