@@ -4,13 +4,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #333;
+  background: rgb(12,200,17);
+background: linear-gradient(90deg, rgba(12,200,17,1) 1%, rgba(37,99,5,1) 59%);
   color: #fff;
   width: 100%;
   position: fixed; 
   top: 0;
   left: 0; 
-  
+  opacity: 0.9;
 }
 
 .logo {
@@ -29,7 +30,7 @@
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
-  margin-right: 40px;
+  margin-right: 65px;
 }
 
 .nav-links li a:hover {
