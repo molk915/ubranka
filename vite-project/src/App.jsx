@@ -9,7 +9,7 @@ const App = () => {
     <div >
       <Navbar />
       <main >
-        <h2>Welcome to our Clothing Store</h2>
+        <h2 className='Naglowek'>Welcome to our Clothing Store</h2>
         <ProductListt />
       </main>
       <Footer />
