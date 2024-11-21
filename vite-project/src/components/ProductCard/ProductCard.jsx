@@ -3,15 +3,13 @@ import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
   return (
-    <div >
-      <img src={product.image} alt={product.name}  />
+    <div className="product-card">
+      <img src={product.img} alt={product.name} className="product-image" />
       <h3>{product.name}</h3>
       <p>{product.price} $</p>
-      <button >Add to Cart</button>
+      <button className="add-to-cart">Add to Cart</button>
     </div>
   );
 };
-
-
 
 export default ProductCard;

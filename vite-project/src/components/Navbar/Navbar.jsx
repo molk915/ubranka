@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import LoginWindow from '../login/LoginWindow';
-import RegisterWindow from '../register/RegisterWindow';
+import React from 'react';
 import './navbar.css';
+
 const Navbar = () => {
 
   const [showLogin, setShowLogin] = useState(false);
@@ -40,20 +39,9 @@ const Navbar = () => {
         <li><a href="#products">Products</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-        <button onClick={handleLoginClick}>Login</button>
-        <button onClick={handleRegisterClick}>Register</button>
-
-        {showLogin && (
-          <LoginWindow onClose={handleCloseModal} switchToRegister={switchToRegister} />
-        )}
-
-        {showRegister && (
-          <RegisterWindow onClose={handleCloseModal} switchToLogin={switchToLogin} />
-        )}
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
-
